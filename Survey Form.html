@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <h1>Employee Interests Survey form</h1>
+    <form>
+        <label for="name">
+        Enter you name:
+        </label>
+        <input type="text" id="name"
+        name="name" value="">
+    </form><br>
+    <form>
+        <label for="department">
+        Enter you department:
+        </label>
+        <input type="text" id="department"
+        name="department" value="">
+    </form><br>
+    <form>
+        <label for="personbkg">
+        Tell us a little about yourself:
+        </label>
+        <textarea name="message"
+        rows="5" cols="30">
+        </textarea>
+    </form><br>
+    <form>
+        <label for="exercise">
+            Do you exercise at home?
+        </label>
+        <input type="radio" id="yes" name="exercise" value="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="exercise" value="no">
+        <label for="no">No</label>
+    </form><br>
+    <form>
+        <label for="topics">
+            How do you like to read about your favorite topics?
+        </label><br><br>
+        <input type="checkbox" id="books" name="topics" value="book">
+        <label for="book">Book</label>
+        <input type="checkbox" id="onres" name="topics" value="onres">
+        <label for="onres">Online resources</label>
+        <input type="checkbox" id="phone" name="topics" value="phone">
+        <label for="phone">Phone</label>
+        <input type="checkbox" id="no" name="magazines" value="magazine">
+        <label for="magazine">Magazines</label>
+    </form><br>
+    <form>
+        <label for="movie_genre">
+            What genre of movies do you like?
+        </label>
+        <select id="movie_genre" name="genre" size="1">
+        <option value="horror">horror</option>
+        <option value="romance">romance</option>
+        <option value="action">action</option>
+        <option value="comedy" selected>comedy</option>
+        </select>
+    </form><br>
+    <form>
+        <input type="submit" value="Submit form">
+    </form>
+</center>
+</body>
+</html>
